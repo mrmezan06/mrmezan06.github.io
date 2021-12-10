@@ -1,0 +1,173 @@
+/* if the viewport is equal to 340px or less than that */
+@media only screen and (max-width: 340px) {
+
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-us-area .subscribe .subscribe-title,
+  .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+  .site-main .subscribe-us-area .subscribe {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-us-area .subscribe form .input-textbox input {
+    width: 15rem !important;
+  }
+
+  .site-main>.services-area .services {
+    width: 13rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .contect_box a {
+      font-size: 18px;
+  }
+  .fa-3x {
+      font-size: 30px !important;
+  }
+  .contect_box .call_num {
+     margin-left: 24px;
+     font-family: var(--roboto);
+     font-size: 14px;
+     width: 155px !important;
+     position: absolute;
+     top: ;
+     bottom: -36px;
+  }
+  section.services_section h2 {
+      margin-top: 45px;
+  }
+  section.services_section h2 {
+    font-size: 35px;
+    font-family: var(--roboto);
+    padding: .4rem;
+    margin-top: 45px;
+}
+  section.brand-aria .experince-aria .years_aria {
+    padding-left: 0 !important;
+  }
+
+  section.brand-aria .experince-aria .bg-panal {
+    margin: -5px 129px !important;
+  }
+
+  .services {
+    padding: 0px !important;
+  }
+
+  section.about_section h2 span {
+    display: block;
+    font: normal bold 19px/30px var(--roboto);
+    letter-spacing: 9px;
+  }
+
+  section.project_section button {
+    font: normal bold 16px/130px var(--roboto);
+    padding-left: 0;
+  }
+
+  section.project_section button {
+    font: normal bold 16px/130px var(--roboto);
+    padding-left: 0;
+    height: 53px;
+  }
+
+  section.brand-aria .experince-aria .bg-panal {
+    position: absolute;
+    top: 0px;
+    /* left: -190px; */
+    width: 400px;
+    height: 400px;
+    background: #e0292917;
+    z-index: -1;
+    /* margin-left: 340px; */
+  }
+  .image-fluid {
+      width: 100%;
+  }
+  .banner_section h1.title-text {
+    font-size: 4rem;
+  }
+  .banner_section h4.title-text {
+    font-size: 23px;
+    margin-bottom: 20px;
+    line-height: 26px;
+}
+.brand_row{
+  margin-bottom: 20px;
+}
+h3.text-uppercase {
+    font-size: 22px;
+}
+input.form-control {
+    width: 200px !important;
+    background: transparent;
+    height: 34px !important;
+    margin: auto !important;
+}
+input.button.btn.secondary-button.mr-4.text-uppercase {
+    padding: 6px !important;
+    border-radius: 7px;
+    font-weight: 600/20;
+    font-family: var(--roboto);
+    margin-top: 20px;
+    width: 103px !important;
+    font-size: 12px;
+}
+}
+
+/* if the viewport is equal to 340px or less than that */
+/* @media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+} */
+/* if the viewport is equal to 1910px or less than that */
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .brand-area,
+  .site-main .services-area .services-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}
